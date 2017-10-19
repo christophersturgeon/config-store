@@ -1,10 +1,6 @@
 ---
 
-message: chris
-
----
-
 spring:
   profiles: cloud
 
-message: chris cloud
+message: this is great
