@@ -16,3 +16,7 @@ eureka:
     instance:
         hostname: ${vcap.application.uris[0]}
         nonSecurePort: 80
+        
+    client:
+        serviceUrl:
+            defaultZone: http://username:password@discovserver-anaplastic-observableness.cfapps.io/eureka
