@@ -1,0 +1,10 @@
+---
+
+message: chris
+
+---
+
+spring:
+  profiles: cloud
+
+message: chris cloud
